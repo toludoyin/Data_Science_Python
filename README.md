@@ -3,10 +3,16 @@ Variables
 
 List and list comprehension
 
+Comparison operators:
+
 If statement
 
 For loop and While loop
 
 Functions 
 
-Object Oriented Program
+Using lambda functions(map(), filter())
+
+Classes and Object
+
+
