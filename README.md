@@ -5,7 +5,7 @@ List and list comprehension
 
 If statement
 
-For and While loop
+For loop and While loop
 
 Functions 
 
