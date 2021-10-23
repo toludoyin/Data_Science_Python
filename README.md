@@ -1,4 +1,4 @@
-# Data_Science_Python
+# ds_python
 Variables
 
 List and list comprehension
