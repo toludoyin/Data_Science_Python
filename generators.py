@@ -41,12 +41,12 @@ for num_in_cache in prime_number():
 
 
 
-# generator expression
+# generator expression: question: get square of number and break when its > 20
 import itertools
 
 square = (num ** 2 for num in itertools.count(1))
 
 for num in square:
     print(num)
-    if num >20:
+    if num > 20:
         square.close()
