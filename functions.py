@@ -5,8 +5,8 @@ def math(x):
     return x ** 3 + 14
 
 result = math(45)
-print(f'Math result: {result}')
-print('\n')
+print(f'Math result: {result}' + '\n')
+
 
 
 # functions with an already predefined declared variable arguement

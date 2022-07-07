@@ -1,4 +1,5 @@
 
+# regex are use to match patterns in text
 import re
 
 # To returns a match object
@@ -11,12 +12,12 @@ else:
 
 
 # To findall, returns a list containing all matches
-word = 'My Name is Toludoyin. A Data Scientist'
-x =re.findall('is', word)
+word = 'My Name is Toludoyin. She is a Data Scientist'
+x = re.findall('is', word)
 print(x)
 
 
-# metacharacters:
+## metacharacters:
 # ^ = startwith
 # $ = endswith
 # () = capture the group
@@ -25,4 +26,6 @@ print(x)
 # [] = set of characters
 # * = zero or more occurence
 # + = one or more occurence
-# . = any character
+# . = any non-newline character
+# .*? = match any number of character except newline (\n) character
+#
