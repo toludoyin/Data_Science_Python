@@ -1,13 +1,13 @@
-# python fundamentals
+# python fundamental
 1. Data types
 
-2. Variables
+2. Variables and expressions
 
-3. List and list comprehension
+3. List comprehension
 
 4. Comparison operators:
 
-    a. If statement
+    a. If and else statement
 
     b. For loop and While loop
 

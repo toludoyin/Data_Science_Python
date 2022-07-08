@@ -10,29 +10,21 @@ while number < no_limit:
 print("submit")
 
 
-counts=1
-while counts <= 4:
-    print('counts is:{}'.format(counts))
-    counts +=1
-print('Done')
-
-x=0
-while x<=36:
-    print(f"The numbers is: {x}")
-    x+=6
 
 
-n = 5
-while n > 0:
-    print(n)
-    n = n - 1
+counts = 6
+while counts > 0:
+    print(f'counts is: {counts}')
+    counts -=1
 else:
     print('blastoff')
 
 
-error=50
-while error >1:
-    error=error/4
+
+
+error = 50
+while error > 1:
+    error = error/4
     print(error)
 
 

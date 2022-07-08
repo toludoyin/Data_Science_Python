@@ -11,13 +11,16 @@ for i in range(1,100):
         total1+=i
 print(total1)
 
+
+
 # Iterating through or using a given number
-list=[4,6,8]
-for new_list1 in list:
+list_ = [4,6,8]
+for new_list1 in list_:
     new_list = " "
     for x in range(new_list1):
         new_list += "A"
     print(new_list)
+
 
 
 # Nested loop; adding a loop inside another loop.
@@ -27,14 +30,18 @@ for x in range(2):
         print(f"({x},{y})")
 
 
-# Dictionary
+
+# Dictionarys
 key_value= {"name":"toludoyin", "level":"top", "class":1, "executive":True}
 for key,value in key_value.items():
     print(f"This are my answers: {key}- {value}")
 
+
+
 # to sort by keys in a dict
 for s in sorted(key_value):
     print(s,(key_value[s]))
+
 
 
 # function calling
