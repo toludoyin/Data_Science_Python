@@ -9,12 +9,12 @@
 
     a. If and else statement
 
-    b. For loop and While loop
+5. Iterators and repeat
 
-5. Functions
+6. Functions and reuse
 
     a. Using lambda functions(map(), filter())
 
-6. Classes and Object
+7. Classes and Object
 
 
