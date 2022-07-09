@@ -43,6 +43,7 @@ print('Before', count, sum)
 for item in [23, 45, 81, 32, 12, 72, 90]:
     count = count + 1
     sum = sum + item
+    print(count, sum, item)
 print("After", count, sum, round(sum/count, 2))
 
 

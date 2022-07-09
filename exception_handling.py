@@ -1,5 +1,5 @@
 
-# python solutions to error
+# exceptions are python solutions to error
 
 astr = 'hello world'
 try:
