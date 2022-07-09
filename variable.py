@@ -23,7 +23,6 @@ print("Expression result:", number)
 
 # assigning variables to value and expressions to solve a quadratic equation
 import math
-from tempfile import tempdir
 a = 6  # assignment statement
 b = 10
 c = 12

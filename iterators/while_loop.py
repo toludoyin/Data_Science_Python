@@ -1,5 +1,5 @@
 
-# While loop
+# While loop (indefinite loop)
 # while loop is a repeated if statement. it is use to execute a block of code multiple times until a particular condition is met
 
 number = 1
@@ -7,7 +7,7 @@ no_limit = 5
 while number < no_limit:
     print("$" * number)
     number += 1
-print("submit")
+print("submit \n")
 
 
 
@@ -17,15 +17,21 @@ while counts > 0:
     print(f'counts is: {counts}')
     counts -=1
 else:
-    print('blastoff')
+    print('blastoff \n')
 
 
 
 
-error = 50
-while error > 1:
-    error = error/4
-    print(error)
+while True:
+    in_put = input("press any key:").lower()
+    if in_put == '#':
+        continue
+    if in_put == 'next':
+        break
+    print(in_put)
+print("Copy text \n")
+
+
 
 
 

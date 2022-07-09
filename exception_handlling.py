@@ -37,7 +37,7 @@ def do_something(n):
     print(n)
 
 def catch_this():
-    list_num = (1,2,3,4,5,6)
+    list_num = (1, 2, 3, 4, 5, 6)
 
     for a in range(10):
         try:
@@ -46,6 +46,8 @@ def catch_this():
             do_something(0)
 
 catch_this()
+
+
 
 
 hrs = input("Enter Hours:")
