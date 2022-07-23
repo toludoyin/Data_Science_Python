@@ -20,7 +20,7 @@ courses[1]=405  # replace
 print(courses)
 
 
-# swapping two value/element within a list
+# swapping two element within a list
 learning = ["youtube", "datacamp", "cousera", "udemy"]
 
 studies = learning[0]
