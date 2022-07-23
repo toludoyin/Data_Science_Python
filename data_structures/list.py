@@ -1,24 +1,20 @@
 
 
 #  list
-courses = [401, 407, 499, 1000, 412, 403]
-max(courses)
+courses = [4.1, 407, 499, 1000, 412, [1.2, 45.6]]
+courses.append("firstclass")  # list can contain any set of datatype
+print(courses)
 
-# add to a list, a list can contain any set of datatype
-courses.append("firstclass")
-courses
+courses1 = courses[5]
+print(courses1[0]) # access list in list
 
-# delete, the last number in a list
-courses.pop(-1)
-courses
+courses.pop(-3)  # delete number in a list
+print(courses)
 
-# slicing
-courses[0:3]
+print(courses[0:3])  # slicing
 
-
-# replace
-courses[1]=405
-courses
+courses[1]=405  # replace
+print(courses)
 
 
 # swapping two value/element within a list
@@ -31,6 +27,6 @@ learning[-1] = studies
 print(learning)
 
 learning[0], learning[-1] = learning[-1], learning[0]
-learning
+print(learning)
 
 
