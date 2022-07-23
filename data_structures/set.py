@@ -1,18 +1,19 @@
 
-# Set: are list with no duplicate entries. A set does not store data in order in which it is stored.
+# Set: are list with no duplicate entries. Set are unordered, mutable, unindexed and are mostly use for mathmatical operations
 
-a = set()
+set_a = set()
 
-a.add(2)
-a.add(5)
-a.add("garlic")
-a
-for x in a:
+set_a.add(2)  # add to set
+set_a.add('python')
+set_a.add('ephemeral')
+set_a.remove(2) # remove item from set
+for x in set_a:
     print(x)
 
 
-# when to use a set: when you want to remove a duplicate from a list
-given_list = [3,3,5,11,11,4]
+
+
+given_list = [3,3,5,11,11,4]    # set is use to remove a duplicate from a list
 new_list = set()
 
 for x in given_list:
@@ -21,28 +22,29 @@ for x in given_list:
 # total = 0
 # for x in new_list:
 #     total += x
-print(new_list)
+print(f'duplicate removed {new_list}')
 
 
-# reseting set back to a list
-new_list1=[]
+new_list1=[]  # reseting set back to a list
 for x in new_list:
     new_list1.append(x)
 print(new_list1)
 
 
-# use intersection to search for common items in both list
+# operations
 a = set(['dam', 'tool', 'industry', 'fance'])
 b = set(['dam', 'sharp', 'lust', 'merge', 'industry'])
 
-print(b.intersection(a))
+print(f'intersection: {b & a}') # intersection
+print(f'alternative intersection: {b.intersection(a)}\n')
 
-# distinct items
-print(b.symmetric_difference(a))
+print(f'union: {b | a}') # union
+print(f'alternative union: {b.union(a)}\n')
 
-# only common in each set
-print(b.difference(a))
+print(f'difference: {b - a}') # difference
+print(f'alternative difference: b.difference(a)\n')
 
-# union
-print(b.union(a))
+print(f'symmetric difference: {b ^ a}') # symmetric difference
+print(f'symmetric difference: {b.symmetric_difference(a)}')
+
 
