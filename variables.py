@@ -5,7 +5,7 @@ float_ = 3.14
 integers_ = 654
 booleans_ = True or False
 # complex_ = 4 + 123y
-dictionary_ = {'name': 'jam jam',
+dictionary_ = {'name': 'jam jam',  # data structures
                'age': 100,
                'married': False}
 set_ = {'name', 35, True, 13.6}
