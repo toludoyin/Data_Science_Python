@@ -37,5 +37,5 @@ print(learning)
 first_draft = [3,10,4,7,5,6]
 first_draft.sort()   # sort list
 print(first_draft)
-sec_draft = [4,5,7,8]
+
 
