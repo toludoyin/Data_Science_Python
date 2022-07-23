@@ -13,7 +13,7 @@ for x in set_a:
 
 
 
-given_list = [3,3,5,11,11,4]    # set is use to remove a duplicate from a list
+given_list = [3,3,5,11,11,4]    # to remove a duplicate from a list
 new_list = set()
 
 for x in given_list:
@@ -42,7 +42,7 @@ print(f'union: {b | a}') # union
 print(f'alternative union: {b.union(a)}\n')
 
 print(f'difference: {b - a}') # difference
-print(f'alternative difference: b.difference(a)\n')
+print(f'alternative difference: {b.difference(a)}\n')
 
 print(f'symmetric difference: {b ^ a}') # symmetric difference
 print(f'symmetric difference: {b.symmetric_difference(a)}')
