@@ -6,13 +6,13 @@ dictionary_ = {'name': 'jam jam',
                }
 
 dictionary_['nationality'] = 'san-francisco' # add to dict
-print(dictionary_)
+for key, value in dictionary_.items():
+    print(f'Users details: {key}, {value}')
 print(dictionary_.get('age')) # to access a dict
+
 
 
 key = ['no_1', 'no_2', 'no_3', 'no_4'] # convert lists to dict
 values = [3, 10, 4, 7]
-
 result = dict(zip(key, values))
 print(result)
-
