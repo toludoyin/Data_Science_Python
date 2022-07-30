@@ -3,11 +3,11 @@
 learning = ["youtube", "datacamp", "coursera", "udemy"]
 
 for index, value in enumerate(learning):
-    print(f"index  {str(index)} : {str(value)}")
+    print(f"index {str(index)}: {str(value)}")
 
 
 
-# looping through a range and break to terminate a loop
+# looping through a range and using break to terminate the loop
 total1 = 0
 for value in range(1,100):
     if value % 3 or value % 5 == 0:
@@ -29,8 +29,8 @@ for new_list1 in list_:
 
 
 # Nested loop; adding a loop inside another loop.
-for x in range(5):
-    for y in range(3):
+for x in range(3):
+    for y in range(2):
         print(f"({x},{y})")
 
 
@@ -49,10 +49,10 @@ print("After", count, sum, round(sum/count, 2))
 
 
 
-# Dictionarys
+# looping dictionarys
 key_value= {"name":"toludoyin", "level":"top", "class":1, "executive":True}
 for key, value in key_value.items():
-    print(f"This is my answer: {key}- {value}")
+    print(f"Survey result: {key}- {value}")
 
 
 
@@ -62,7 +62,6 @@ def dictionary_():
     key_value= {"name":"toludoyin", "level":"top", "class":1, "executive":True}
     for s in sorted(key_value):
         print((s, key_value[s]))  #, end = " ")
-
 def main():
     dictionary_()
 
