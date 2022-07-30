@@ -29,7 +29,6 @@ with open('myBio_pickle', 'rb') as file:
 
 
 
-
 # serialising with json
 import json
 
