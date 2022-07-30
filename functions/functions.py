@@ -60,3 +60,4 @@ if bar(1, 2, 3, magicnumber=6) == False:
     print("Great.")
 if bar(1, 2, 3, magicnumber=7) == True:
     print("Awesome!")
+
