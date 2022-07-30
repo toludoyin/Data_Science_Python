@@ -1,12 +1,12 @@
 
 
-z =100
-if z % 2  ==0:
-    print("Absolutely Correct with 2")
-elif z % 4 ==0:
-    print("Right with 4")
+z =100  # calculating 100 remainder
+if z % 2 == 0:
+    print("Absolutely correct")
+elif z % 2 < 0:
+    print("Wrong remainder")
 else:
-    print("Wrong!, neither 2 nor 4 is correct")
+    print("Wrong output, try again")
 
 
 
@@ -17,4 +17,4 @@ if x < 10:
 if x > 20:
     print('bigger')
 
-print('finis')
+print('done')
