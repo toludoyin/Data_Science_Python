@@ -1,6 +1,6 @@
 
 
-# The class is a template to create/describe an object(like a form).
+# object contains variable and functions, object get their variable and function from class. class is a template to create an object(like a form).
 # _init_ is a constructor, it help to initialise the attribute in a class
 
 class Employees:
