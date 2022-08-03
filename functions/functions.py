@@ -9,10 +9,9 @@ print(f'Math result: {result}' + '\n')
 
 
 
-
 # functions with an already predefined declared variable arguement
 miles1 = 52
-miles2 = 15
+miles2 = 2
 
 def convert(miles):
     kilogram = 1.6 * miles
@@ -30,34 +29,33 @@ result2=convert(miles2)
 
 
 # multiple function and keyword arguement
-
 def product(product_a, product_b, product_c, **others):
-    if others.get('action') == 'sum':
+    if others.get('addition') == 'sum':
         print('The sum is: %d' %(product_a + product_b + product_c))
 
-    if others.get('rank') == 'product_a':
+    if others.get('order') == 'product_a':
         return product_a
 
-result = product(1,2,3, action = 'sum', rank = 'product_a')
-print('Rank: %d' %(result))
+result = product(1,2,3, addition = 'sum', order = 'product_a')
+print('Order: %d\n' %(result))
 
 
 
 
-# Fill in the foo and bar functions so they can receive a variable amount of arguments (3 or more) The foo function must return the amount of extra arguments received. The bar must return True if the argument with the keyword magicnumber is worth 7, and False otherwise.
+# Fill in the foo and bar functions so they can receive a variable amount of arguments (3 or more) The no1 function must return the amount of extra arguments received. The no2 must return True if the argument with the keyword number is worth 7, and False otherwise. from learnpython.com
 
-def foo(a, b, c, *args):
+def no1(a, b, c, *args):
     return len(args)
 
-def bar(a, b, c, **kwargs):
-    return kwargs['magicnumber'] == 7
+def no2(a, b, c, **kwargs):
+    return kwargs['number'] == 7
 
-if foo(1, 2, 3, 4) == 1:
+if no1(1, 2, 3, 4) == 1:
     print("Good.")
-if foo(1, 2, 3, 4, 5) == 2:
+if no1(1, 2, 3, 4, 5) == 2:
     print("Better.")
-if bar(1, 2, 3, magicnumber=6) == False:
+if no2(1, 2, 3, number=6) == False:
     print("Great.")
-if bar(1, 2, 3, magicnumber=7) == True:
+if no2(1, 2, 3, number=7) == True:
     print("Awesome!")
 
