@@ -1,4 +1,4 @@
-# python fundamental
+# Python fundamental
 1. Data types
 
 2. Variables and expressions
@@ -14,7 +14,6 @@
 6. Functions and reuse
 
     a. Using lambda functions(map(), filter())
+    b. Python libraries
 
 7. Classes and Object
-
-
