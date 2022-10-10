@@ -1,0 +1,1 @@
+This repository scrape trending news about Nigeria from Google website with a day interval i.e yesterday.
