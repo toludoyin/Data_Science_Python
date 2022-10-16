@@ -1,12 +1,9 @@
 #  list
-courses = [4.1, 407, 499, 1000, 412, [1.2, 45.6]]
+courses = []
+courses.extend([499, [1.2, 45.6], 1000, 412,"pass", "secondclass", True]) # append multiple element
+courses.append("firstclass")
 course = [1,2,3,4]
-print('Using operators to append multiple list: %s + %s' % (courses, course))
-courses.append("firstclass")  # list can contain any set of datatype
-print(courses)
-
-courses.extend(["pass", "secondclass"]) # append multiple element
-print(courses)
+print('Using operators to append multiple list: %s + %s' % (courses, course))  # list can contain any set of datatype
 
 courses1 = courses[5]
 print(courses1[1]) # access list in list
