@@ -56,6 +56,6 @@ for word in fh:
     if not word.startswith('From '):
         continue
     words =word.split()
-    count = count = count+1
+    count = count+1
     print(words[1])
 print("There were", count, "lines in the file with From as the first word")
