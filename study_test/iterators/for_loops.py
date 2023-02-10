@@ -1,7 +1,11 @@
-# For loop (definite loop): it is used to iterate over an item of collection e.g a string
+# For loop (definite loop): used to iterate over an item of collection e.g a string
 learning = ["youtube", "datacamp", "coursera", "udemy"]
 for index, value in enumerate(learning):
     print(f"index {str(index)}: {str(value)}")
+
+# using iterator
+iterate = iter(learning)
+print(next(iterate))
 
 # looping through a range and using break to terminate the loop
 total1 = 0
@@ -35,7 +39,7 @@ for item in [23, 45, 81, 32, 12, 72, 90]:
     print(count, sum, item)
 print("After", count, sum, round(sum/count, 2))
 
-# looping dictionarys
+# looping dictionarys(key-value pairs)
 key_value= {"name":"toludoyin", "level":"top", "class":1, "executive":True}
 for key, value in key_value.items():
     print(f"Survey result: {key}- {value}")
