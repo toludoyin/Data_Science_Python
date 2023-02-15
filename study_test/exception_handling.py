@@ -26,5 +26,3 @@ try:
 except:
     print('input is not a number')
     quit()
-
-# open a file with exception

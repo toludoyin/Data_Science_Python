@@ -1,4 +1,3 @@
-
 # regex are use to match patterns in text
 import re
 
@@ -10,12 +9,10 @@ if x:
 else:
     print('Try again')
 
-
 # To findall, returns a list containing all matches
 word = 'My Name is Toludoyin. She is a Data Scientist'
 x = re.findall('is', word)
 print(x)
-
 
 ## metacharacters:
 # ^ = startwith
@@ -28,4 +25,3 @@ print(x)
 # + = one or more occurence
 # . = any non-newline character
 # .*? = match any number of character except newline (\n) character
-#

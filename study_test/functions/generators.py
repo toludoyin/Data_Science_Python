@@ -1,4 +1,3 @@
-
 # generators>>are>>functions>>that>>act>>like>>iterators.
 def ktt():
   yield 44

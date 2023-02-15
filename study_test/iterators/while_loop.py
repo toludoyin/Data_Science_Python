@@ -1,4 +1,3 @@
-
 # While loop (indefinite loop)
 # while loop is a repeated if statement. it is use to execute a block of code multiple times until a particular condition is met
 number = 1
@@ -43,7 +42,6 @@ def guess(x):
         print("Yay,you got the number correctly, Congrat! you won")
 
 guess(10)
-
 
 # Write a program that repeatedly prompts a user for integer numbers until the user enters 'done'. Once 'done' is entered, print out the largest and smallest of the numbers. If the user enters anything other than a valid number catch it with a try/except and put out an appropriate message and ignore the number. Enter 7, 2, bob, 10, and 4 and match the output below.
 largest = None
