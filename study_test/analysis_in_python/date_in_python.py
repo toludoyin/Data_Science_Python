@@ -1,10 +1,16 @@
-from datetime import date
+from datetime import date, timedelta
 
-date_sample = date(2023, 3, 4)
+start = date(2023, 3, 4)
+end = date(2023, 12, 4)
 
-print(date_sample.day)
-print(date_sample.month)
-print(date_sample.year)
-print(date_sample.weekday())
+print(start.day)
+print(start.month)
+print(start.year)
+print(start.weekday())
 
-# math with date
+# Subtract the two dates and print the number of days
+print((end - start).days)
+
+# Convert to ISO and US formats
+start.isoformat()  # ISO
+start.strftime("%m/%d/%Y")  # US
