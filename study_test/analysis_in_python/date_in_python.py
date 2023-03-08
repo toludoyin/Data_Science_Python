@@ -11,13 +11,6 @@ print(start.weekday())
 # Subtract the two dates and print the number of days
 print((end - start).days)
 
-#  turn strings into date
-start.strptime()
-
-#  turn date into strings
-start.strftime()
-
-
 # Convert to ISO and US formats
 start.isoformat()  # ISO
 start.strftime("%m/%d/%Y")  # US
