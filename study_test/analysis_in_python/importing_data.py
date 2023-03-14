@@ -11,3 +11,6 @@ df.head()
 with open('file_name.pkl', 'rb') as file:
     d = file.load(file)
 print(d)
+
+# importing from database
+from sqlalchemy import create_engine
