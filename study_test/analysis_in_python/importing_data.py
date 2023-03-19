@@ -14,3 +14,6 @@ print(d)
 
 # importing from database
 from sqlalchemy import create_engine
+
+# import data from internet
+from urllib.request import Request, urlopen
